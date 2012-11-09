@@ -2,7 +2,7 @@ require 'pry'
 require 'active_support/all'
 
 class Wire
-  attr_accessor :points, :length
+  attr_accessor :points
   def initialize
     @points = 10.times.map { Point.new }
   end
